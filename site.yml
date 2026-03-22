@@ -1,0 +1,15 @@
+---
+- name: Deploy ClickHouse
+  hosts: clickhouse
+  roles:
+    - clickhouse
+
+- name: Deploy Vector
+  hosts: vector
+  roles:
+    - vector
+
+- name: Deploy Lighthouse
+  hosts: lighthouse
+  roles:
+    - lighthouse

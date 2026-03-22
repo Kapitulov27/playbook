@@ -1,0 +1,12 @@
+
+clickhouse:
+  hosts:
+    localhost:
+
+vector:
+  hosts:
+    localhost:
+
+lighthouse:
+  hosts:
+    localhost:
