@@ -1,0 +1,6 @@
+---
+clickhouse_install_method: script
+
+clickhouse_version: "latest"
+
+clickhouse_packages: []
